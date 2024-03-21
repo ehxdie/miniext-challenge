@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
 import { /* connectFirestoreEmulator, */ getFirestore } from 'firebase/firestore';
-import { /* connectStorageEmulator, */ getStorage } from 'firebase/storage';
+
 // import { isDev } from '../isDev';
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -9,12 +9,13 @@ import { /* connectStorageEmulator, */ getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: 'FILL_ME_IN',
-    authDomain: 'FILL_ME_IN',
-    projectId: 'FILL_ME_IN',
-    storageBucket: 'FILL_ME_IN',
-    messagingSenderId: 'FILL_ME_IN',
-    appId: 'FILL_ME_IN',
+    apiKey: 'AIzaSyAbEwzBh0sHFAAB-WU5tK9ddUfSWZlUptE',
+    authDomain: 'miniextension-7c3ac.firebaseapp.com',
+    projectId: 'miniextension-7c3ac',
+    storageBucket: 'miniextension-7c3ac.appspot.com',
+    messagingSenderId: '494798372343',
+    appId: '1:494798372343:web:e15391902000e066ab42f2',
+    measurementId: 'G-ZR4BPV453E',
 };
 
 // Initialize Firebase
