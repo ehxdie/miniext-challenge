@@ -22,7 +22,7 @@ const firebaseConfig = {
 export const firebaseApp = initializeApp(firebaseConfig);
 
 export const firestore = getFirestore(firebaseApp);
-export const baseBucketName = 'FILL_ME_IN';
+export const baseBucketName = 'miniExtension';
 
 /* if (isDev) {
     connectFirestoreEmulator(firestore, '127.0.0.1', 8081);
